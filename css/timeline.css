@@ -1,0 +1,108 @@
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  
+  position: relative;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+
+
+.timeline > li > .timeline-panel {
+  width: 95%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  /*border-radius: 2px;*/
+  /*padding: 20px;*/
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+
+
+
+
+
+
+
+.timeline-panel
+{
+	 
+   background-color:#f4f4f4;
+
+}
+.timeline-heading
+{ 
+	background-color: white;
+	
+}
+
+.timeline-heading img
+{ 
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-style: solid;
+  margin-top:2%; 
+  margin-right:2%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	float: right;
+	
+}
+.date-timeline
+{
+    float:right;
+    
+  }
+.timeline-body{
+	background-color :white;
+    padding:20px;
+    margin-bottom: 0;
+    height:180px;
+        
+    width:50%;
+ }
+.komentar{
+	
+		   
+    border-width: 6px;
+    width:40%;
+}
+.timeline-body > p
+{
+		
+}
+
+.timeline-footer{
+    padding:20px;
+    background-color:#f4f4f4;
+}
+
+
+.timeline > li.timeline-inverted > .timeline-badge{
+  left: -12px;
+}
+
+ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+     
+
+        
+    
+
+
+
